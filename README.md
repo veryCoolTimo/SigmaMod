@@ -1,26 +1,21 @@
+# Sigma Mod
 
-Sigma Mod
-=========
+A Forge 1.20.1 brainrot-inspired prank mod: the game freezes, the screen darkens, and a transparent trollface slides in at the bottom while a 4-second phonk sting plays. Want extra chaos? Smash `Z` to trigger it manually.
 
-Forge 1.20.1 мод в стиле тиктокового brainrot: в случайный момент игра ставится на паузу, экран притемняется, а внизу всплывает прозрачный троллфейс. Одновременно включается короткий (4 с) фонк‑луп, который пропадает вместе с оверлеем. Хочешь больше хаоса — жми `Z`, чтобы вызвать все вручную.
+## Features
+- Random overlay every 90–180 seconds, plus a manual trigger on `Z`.
+- Trollface PNGs are scaled to a consistent display height regardless of their original resolution.
+- Plug-and-play audio pack: drop `.ogg` clips into `assets/sigmamod/sounds/overlay/` and register them in `sounds.json`.
 
-Особенности
------------
-- Рандомный запуск каждые 90–180 секунд или вручную по `Z`.
-- Троллфейс PNG растягивается до одинакового размера вне зависимости от оригинального разрешения.
-- Поддержка набора фонк‑клипов: просто положи `.ogg` в `assets/sigmamod/sounds/overlay/` и опиши их в `sounds.json`.
+## Installation
+1. Build the mod with `./gradlew build` or grab a prebuilt release.
+2. Copy `build/libs/sigmamod-0.1.0.jar` into your Forge 1.20.1 `mods` folder (Java 17 required).
+3. Launch Minecraft and enjoy the sigma jump-scare moments.
 
-Установка
----------
-1. Собери проект (`./gradlew build`) или скачай готовый релиз.
-2. Положи `build/libs/sigmamod-0.1.0.jar` в папку `mods` Forge 1.20.1 (Java 17 обязательна).
-3. Запусти игру, наслаждайся рандомным троллингом.
-
-Разработка
-----------
-- `./gradlew runClient` — дев-сессия Minecraft.
-- Активы:
-  - PNG: `src/main/resources/assets/sigmamod/textures/gui/overlay/`
-  - OGG: `src/main/resources/assets/sigmamod/sounds/overlay/`
-  - Регистрация: `src/main/resources/assets/sigmamod/sounds.json`
-- Дополнительные заметки см. в `docs/overlay-assets.md`.
+## Development
+- `./gradlew runClient` starts a dev client with hot reloading.
+- Asset layout:
+  - PNG overlays: `src/main/resources/assets/sigmamod/textures/gui/overlay/`
+  - OGG clips: `src/main/resources/assets/sigmamod/sounds/overlay/`
+  - Sound registry: `src/main/resources/assets/sigmamod/sounds.json`
+- Additional notes and examples live in `docs/overlay-assets.md`.
