@@ -1,0 +1,13 @@
+{
+  "overlay/1": { "sounds": [{ "name": "sigmamod:overlay/1", "stream": true }] },
+  "overlay/2": { "sounds": [{ "name": "sigmamod:overlay/2", "stream": true }] },
+  "overlay/3": { "sounds": [{ "name": "sigmamod:overlay/3", "stream": true }] },
+  "overlay/4": { "sounds": [{ "name": "sigmamod:overlay/4", "stream": true }] },
+  "overlay/5": { "sounds": [{ "name": "sigmamod:overlay/5", "stream": true }] },
+  "overlay/6": { "sounds": [{ "name": "sigmamod:overlay/6", "stream": true }] },
+  "overlay/7": { "sounds": [{ "name": "sigmamod:overlay/7", "stream": true }] },
+  "overlay/8": { "sounds": [{ "name": "sigmamod:overlay/8", "stream": true }] },
+  "overlay/9": { "sounds": [{ "name": "sigmamod:overlay/9", "stream": true }] },
+  "overlay/10": { "sounds": [{ "name": "sigmamod:overlay/10", "stream": true }] },
+  "overlay/11": { "sounds": [{ "name": "sigmamod:overlay/11", "stream": true }] }
+}
